@@ -7,16 +7,22 @@
 </head>
 <body>
     <h1 id="Titulo-Principal">Esta es mi pagina web de prueba</h1>
-    <div>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor</div>
-    <p lang ="en" dir="rtl"> I want to introduce this text in my paragraph</p>
-    <form>
+    <div class="seccion-principal">
+        <p>Parrafo</p>
+        <p lang ="en" dir="rtl"> Parrafo2</p>
+    </div>
+
+    <form action="" method="post">
         <label for="name">Nombre:</label>
-        <input tabindex="1" type="text" id="name" name="name">
+        <input tabindex="1" type="text" placeholder="Nombre" id="name" name="name"><br>
+
         <label for="email">Email:</label>
-        <input tabindex="2" type="email" id="email" name="email" title=" Escribe tu correo electrónico">
+        <input tabindex="2" type="email" placeholder="Email" id="email" name="email" title=" Escribe tu correo electrónico"><br>
+
         <label for="mensaje">Mensaje:</label>
-        <input tabindex="3" type="text" id="mensaje" name="mensaje">
-        <button type="submit">Enviar</button>
+        <textarea tabindex="3"  id="mensaje" name="mensaje"></textarea><br>
+
+        <button type="submit" id="boton" tabindex="4">Enviar</button>
         <a href="#Titulo-Principal" tabindex="4">Volver al Inicio</a>
         <a href="https://github.com/Armenteros05/Ejercicio-HTML/branches" tabindex="5">Ver Más Información</a>
 
